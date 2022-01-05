@@ -5,7 +5,7 @@
 This repository contains code for reproducing benchmarks on the Eschikon Wheat Segmenation (EWS) Dataset.
 Running the `main.py` trains, validates and tests the following methods:
 
-- proper citation of Zenkl et al (TBD)
+- Zenkl, R., Timofte, R., Kirchgessner, N., Roth, L., Hund, A., Van Gool, L., ... & Aasen, H. Outdoor Plant Segmentation with Deep Learning for High-Throughput Field Phenotyping on a Diverse Wheat Dataset. Frontiers in Plant Science, 2758.
 - Sadeghi-Tehran, P., Virlet, N., Sabermanesh, K., and Hawkesford, M. J. (2017).  Multi-feature machine learning model for automatic segmentation of green fractional vegetation cover for high-throughput field phenotyping.Plant methods13, 103
 - Rico-Fernández, M., Rios-Cabrera, R., Castelan, M., Guerrero-Reyes, H.-I., and Juarez-Maldonado, A.(2019). A contextualized approach for segmentation of foliage in different crop species.Computers and Electronics in Agriculture156, 378–386
 - Yu, K., Kirchgessner, N., Grieder, C., Walter, A., and Hund, A. (2017).  An image analysis pipeline for automated classification of imaging light conditions and for quantification of wheat canopy cover time series in field phenotyping. Plant Methods13, 1–13
