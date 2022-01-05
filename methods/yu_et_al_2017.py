@@ -116,8 +116,6 @@ class YuEtAl2017(base.BenchmarkMethod):
         self.pixel_model_hlc.fit(x_img_hlc_train, y_img_hlc_train)
         self.ilum_model.fit(x_hist, y_hist)
 
-        # print('training time: ', time.time() - t, ' s')
-
         n_images = 0
         types = ['HLC', 'LLC']
         for type in types:

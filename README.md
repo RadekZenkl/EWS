@@ -42,6 +42,9 @@ If you are unsure if your setup can utilize a GPU, active the `EWS`environment a
 
 `
 import torch
+`
+
+`
 print(torch.zeros(1).cuda())
 `
 

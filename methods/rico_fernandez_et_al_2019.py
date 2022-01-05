@@ -92,9 +92,6 @@ class RicoFernandezEtAl2019(base.BenchmarkMethod):
         preds = preds.reshape((-1, 122500)).astype(np.uint8)
         y = y.reshape((-1, 122500)).astype(np.uint8)
 
-        # print(np.unique(y))
-        # print(np.unique(preds))
-
         train_metrics = self.calculate_metrics(preds, y)
 
         # Load all training data into memory

@@ -81,7 +81,6 @@ class Proposed(base.BenchmarkMethod):
             preds_logged_train = torch.zeros((len(train_dataset), 448 * 448))
             y_logged_train = torch.zeros((len(train_dataset), 448 * 448))
 
-            # self.model.change_input_size(device=self.device, input_size=224)
             self.model.train()
             self.model.train_size()
     
@@ -111,9 +110,6 @@ class Proposed(base.BenchmarkMethod):
                     (n_samples, -1)).cpu()
 
             del loss, outputs, preds
-
-            # Change input size to 704 (704 is the nearest 2**n number to 2*350 which is the upscaled original size)
-            # self.model.change_input_size(device=self.device, input_size=704)
 
             # Track a given validation metric to keep the best performing model
             self.model.eval()
